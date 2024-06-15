@@ -1,7 +1,7 @@
 import {ElementType} from "react";
 
 export interface SocialMediaTypes {
-    text: string;
+    text?: string;
     path: string;
     Icon?: ElementType;
 }

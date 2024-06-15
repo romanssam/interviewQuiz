@@ -10,7 +10,7 @@ export const SocialMedia = memo(() => {
     const itemsList = useMemo(
         () =>
             socialMediaItemsList.map((item) => (
-                <SocialMediaItem item={item} key={item.text} />
+                <SocialMediaItem item={item} key={item.path} />
             )),
         [socialMediaItemsList]
     )

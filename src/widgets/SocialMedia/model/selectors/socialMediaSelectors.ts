@@ -7,17 +7,14 @@ export const useSocialMediaLinks = () => {
     const socialMediaLinks: SocialMediaTypes[] = [
         {
             path: 'https://github.com/romanssam',
-            text: ' ',
             Icon: GitHubIcon
         },
         {
             path: 'https://vk.com/troubledyouth_h',
-            text: ' ',
             Icon: VkIcon
         },
         {
             path: 'https://career.habr.com/troubledyouth_h',
-            text: ' ',
             Icon: HabrIcon
         },
     ];
