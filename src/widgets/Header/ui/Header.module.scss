@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  width: var(--logo-width);
+}
+
+.title {
+  font-size: var(--h3-fz);
+  font-weight: 600;
+}
