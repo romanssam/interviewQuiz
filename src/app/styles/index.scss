@@ -4,7 +4,7 @@
 :root {
   --inside-spacing-lg: 24px;
   --inside-spacing-md: 20px;
-  --inside-spacing-sm: 18px;
+  --inside-spacing-sm: 12px;
 
   --corner-radius-lg: 12px;
   --corner-radius-md: 8px;
@@ -17,6 +17,11 @@
 
   --wrapper-width: 1200px;
   --logo-width: 300px;
+
+  --color-gray: #F2F4F6;
+
+  --text-red: #EF5350;
+  --error-color: #e53935;
 
   --h1-fz: 38px;
   --h2-fz: 24px;

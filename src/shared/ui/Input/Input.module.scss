@@ -1,0 +1,26 @@
+.Input {
+  border: var(--border);
+  font-weight: 600;
+  padding: var(--inside-spacing-sm);
+  border-radius: var(--corner-radius-md);
+
+  &:focus-within {
+    border-color: red;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.error {
+  border-color: var(--error-color);
+}
+
+.errorText {
+  color: var(--text-red);
+  font-size: 12px;
+  font-weight: 600;
+}
