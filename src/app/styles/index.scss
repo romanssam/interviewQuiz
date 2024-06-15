@@ -1,0 +1,27 @@
+@import './reset.scss';
+
+:root {
+  --inside-spacing-lg: 24px;
+  --inside-spacing-md: 20px;
+  --inside-spacing-sm: 18px;
+
+  --corner-radius-lg: 12px;
+  --corner-radius-md: 8px;
+  --corner-radius-sm: 4px;
+
+  --main-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  --active-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+  --border: 1px solid #D0D3E5;
+
+  --h1-fz: 38px;
+  --h2-fz: 24px;
+  --h3-fz: 20px;
+  --h4-fz: 16px;
+  --h5-fz: 14px;
+  --h6-fz: 12px;
+
+  --text-l: 16px;
+  --text-m: 14px;
+  --text-s: 12px;
+}
