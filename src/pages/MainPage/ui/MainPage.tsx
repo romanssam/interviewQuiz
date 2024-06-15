@@ -1,13 +1,12 @@
 import {memo} from "react";
-import {GreetingsForm} from "../../../features/GreetingsForm";
+import {GreetingSection} from "../../../widgets/GreetingSection";
 
 
 const MainPage = memo(() => {
 
     return (
         <div>
-            Main Page
-            <GreetingsForm />
+            <GreetingSection />
         </div>
     )
 });

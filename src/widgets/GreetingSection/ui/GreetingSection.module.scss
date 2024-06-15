@@ -1,0 +1,25 @@
+.GreetingSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  background-color: var(--color-gray);
+  border-radius: var(--corner-radius-lg);
+  padding: var(--inside-spacing-lg);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.iconsGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text {
+  margin-top: 1rem;
+}

@@ -1,0 +1,10 @@
+.WarningNotification {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+
+  background-color: var(--warning-bg-color);
+  border-radius: var(--corner-radius-md);
+  padding: var(--inside-spacing-sm);
+
+}
